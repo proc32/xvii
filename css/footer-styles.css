@@ -1,0 +1,119 @@
+.ct-footer__footer {
+	margin-top: 24px;
+}
+
+.ct-footer__footer h5{
+  margin-bottom: 12px;
+}
+
+.ct-footer__container.ct-footer__footer {
+	margin-bottom: 0px;
+	padding-bottom: 100px;
+}
+
+.ct-footer__container {
+	position: static;
+	width: 100%;
+	height: 100%;
+	max-width: 1296px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 24px;
+	padding-left: 24px;
+	-webkit-perspective: 500px;
+	perspective: 500px;
+}
+
+.ct-footer__footer-3-left-column {
+	display: -ms-grid;
+	display: grid;
+	margin-top: 0px;
+	padding-top: 40px;
+	-webkit-box-align: start;
+	-webkit-align-items: start;
+	-ms-flex-align: start;
+	align-items: start;
+	grid-auto-columns: 1fr;
+	grid-column-gap: 72px;
+	grid-row-gap: 96px;
+	-ms-grid-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	-ms-grid-rows: auto;
+	grid-template-rows: auto;
+	font-family: Spartan, sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+.ct-footer__footer-contact-methods {
+	display: -ms-grid;
+	display: grid;
+	grid-auto-columns: 1fr;
+	grid-column-gap: 24px;
+	grid-row-gap: 14px;
+	-ms-grid-columns: 1fr;
+	grid-template-columns: 1fr;
+	-ms-grid-rows: auto;
+	grid-template-rows: auto;
+}
+
+.ct-footer__div-block-12 {
+	margin-bottom: 10px;
+}
+
+.ct-footer__link {
+	opacity: 0.5;
+	-webkit-transition: all 200ms ease;
+	transition: all 200ms ease;
+	text-decoration: none;
+}
+
+.ct-footer__link:hover {
+	border-bottom: 2px solid #e82561;
+	opacity: 1;
+	color: #fff;
+	text-decoration: none;
+}
+
+.ct-footer__div-block-66 {
+	margin-top: 36px;
+}
+
+.ct-footer__footer__link__logo {
+	width: 80px;
+}
+
+@media screen and (max-width: 991px) {
+	.ct-footer__footer-3-left-column {
+		margin-bottom: 48px;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 767px){
+	.ct-footer__container {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+  .ct-footer__footer-3-left-column {
+    margin-right: 30px;
+    margin-left: 30px;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 479px) {
+	.ct-footer__container {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+  .ct-footer__footer-3-left-column {
+    justify-items: center;
+    grid-row-gap: 24px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+}

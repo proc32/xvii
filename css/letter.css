@@ -1,0 +1,194 @@
+.letter-main {
+    display: block;
+    max-width: 1280px;
+    margin: 72px auto 50px auto;
+    padding: 20px 20px 0;
+}
+.letter-hero{
+    gap: 40px;
+    max-width: 1280px;
+    padding: 60px 40px;
+    margin: 0 auto;
+}
+.letter-hero h1{
+    text-align: center;
+    font-size: 40;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.letter-hero h1 .underline-h1{
+    font-weight: 700;
+    position: relative;
+}
+
+.letter-hero h1 .underline-h1:after{
+    content:'';
+    bottom: -20px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    background-image: url("../images/letter/underline.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.jail-video-section{
+    background-image: url("../images/letter/jail-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jail-video{
+    aspect-ratio: 16/9;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid #eeeeee;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.letter-fade{
+    width:100%;
+    height: 10vh;
+    margin-top: -10vh;
+    background: linear-gradient(0deg, rgba(13,18,21,1) 5%, rgba(13,18,21,0) 100%);
+}
+
+.jail-cta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    align-content: center;
+    margin-bottom: 100px;
+}
+
+.jail-cta h2{
+    font-weight:400;
+    margin-bottom: 20px;
+}
+
+.letter-main.no-top-m{
+    margin-top: 0px !important;
+}
+
+@media screen and (max-width: 550px) {
+
+    .letter-hero{
+    padding: 40px 30px;
+    }
+
+    .letter-hero h1{
+        font-size: 31px;
+        margin-bottom: 40px;
+    }
+
+    .letter-main .letter-section {
+        margin-bottom: 40px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .letter-hero h1{
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    .letter-section .letter-text{
+        grid-row: 1;
+    }
+}
+
+
+/*
+filter: drop-shadow(0px 0px 40px rgba(255, 255, 255, 0.24));
+    margin: 40px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+*/
+
+@media screen and (min-width: 900px) {
+    .letter-main {
+    gap: 100px;
+    }
+}
+@media screen and (min-width: 1140px) {
+    .letter-main {
+    padding: 40px 40px 0;
+    }
+}
+.letter-main .letter-section {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+    margin-bottom: 80px;
+}
+@media screen and (min-width: 900px) {
+    .letter-main .letter-section {
+    gap: 54px;
+    grid-template-columns: repeat(5, 1fr);
+    }
+    .letter-main .letter-section .letter-text {
+    grid-column: span 3;
+    }
+    .letter-main .letter-section .letter-img {
+    grid-column: span 2;
+    }
+    .letter-main .letter-section:nth-child(2n+1) .letter-text {
+    order: -1;
+    }
+}
+@media screen and (min-width: 1100px) {
+    .letter-main .letter-section {
+    grid-template-columns: repeat(2, 1fr);
+    }
+    .letter-main .letter-section .letter-text,
+    .letter-main .letter-section .letter-img {
+    grid-column: span 1;
+    }
+}
+.letter-main .letter-section .letter-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.letter-main .letter-section .letter-text p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 12px 0;
+}
+.letter-main .letter-section .letter-img {
+    filter: drop-shadow(0px 0px 40px rgba(255, 255, 255, 0.24));
+    margin: 40px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter-main .letter-section .letter-img img{
+    border: 2px solid #fff;
+}
+
+@media screen and (min-width: 1140px) {
+    .letter-main .letter-section .letter-img {
+    margin: 0;
+    }
+}
+.letter-main .letter-section .letter-img img {
+    display: block;
+    border-radius: 5px;
+}
+@media screen and (min-width: 900px) {
+    .letter-main .letter-section .letter-img img {
+    max-height: 450px;
+    }
+}

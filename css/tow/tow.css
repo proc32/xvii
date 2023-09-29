@@ -1,0 +1,1300 @@
+body {
+  background-color: #0D1316;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+h2 {
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 120%;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+strong {
+  color: #fff;
+  font-weight: 700;
+}
+
+.tow__hero-wrapper {
+  width: 100%;
+  height: 6660px;
+  max-width: 100vw;
+  background-color: #06060c;
+  position: relative;
+}
+
+.tow__padding-v.menu-pad {
+  padding-top: 10vh;
+}
+
+.tow__hero {
+  max-height: 100vh;
+  min-height: 100vh;
+  background-image: url('../../images/tow/bgfull.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  bottom: auto;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.tow__main.border-bottom {
+  border-bottom: 2px solid #fff;
+}
+
+.tow__container {
+  width: 100%;
+  max-width: 1440px;
+  flex-direction: column;
+  flex: none;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.tow__padding-v {
+  z-index: 50;
+  flex-direction: column;
+  flex: 1;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  position: relative;
+}
+
+.tow__padding-h {
+  flex-direction: column;
+  align-items: stretch;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+}
+
+.tow__hero__content-wrapper {
+  height: 100%;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: stretch;
+  display: flex;
+  position: relative;
+}
+
+.tow__hero__content__top {
+  flex: 1;
+  grid-template-rows: auto;
+  grid-template-columns: 350px 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: flex-start;
+  align-items: stretch;
+  display: flex;
+  position: relative;
+}
+
+.tow__hero__content__top__left {
+  width: 324px;
+  flex: none;
+  margin-right: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.tow__hero__title-img {
+  width: 140%;
+  max-width: none;
+  display: block;
+  position: absolute;
+  top: -50px;
+  bottom: 0;
+  left: -20%;
+  right: 0;
+}
+
+.tow__hero__content__top__right {
+  z-index: 99;
+  height: 100%;
+  flex-direction: column;
+  flex: none;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  overflow: visible;
+}
+
+.tow__hero__cards__container {
+  width: auto;
+  height: 100%;
+  grid-column-gap: 50px;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.tow__hero__card {
+  width: 310px;
+  height: 500px;
+  perspective: 500px;
+  border-radius: 10px;
+  position: relative;
+  transform: none;
+}
+
+.tow__hero__card.strawpillows {
+  background-image: linear-gradient(354deg, #19b9fd, #fff);
+}
+
+.tow__hero__scroll__text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.tow__hero__scroll__text.mobile {
+  display: none;
+}
+
+.tow__hero__scroll {
+  margin-top: 60px;
+}
+
+.bold-text {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.tow__sticky {
+  width: 100%;
+  height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+.tow__hero__content__bottom {
+  flex: 1;
+  grid-template-rows: auto;
+  grid-template-columns: 350px 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: flex-start;
+  display: flex;
+  position: relative;
+}
+
+.tow__hero__bottom-text-1 {
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.tow__hero__bottom-text-2 {
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.highlight-text {
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(113deg, #ff0f2b, #ffb20f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-weight: 600;
+}
+
+.tow__hero__content__bottom-right {
+  flex: 1;
+  padding-top: 68px;
+  padding-bottom: 50px;
+}
+
+.tow__hero__content__bottom__left {
+  width: 324px;
+  flex-direction: column;
+  flex: none;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 50px;
+  padding: 30px 20px 30px 0;
+  display: flex;
+  position: relative;
+}
+
+.tow__hero__card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.tow__read-now__container {
+  grid-column-gap: 13px;
+  color: #fff;
+  align-items: center;
+  padding: 8px 50px 12px 0;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+}
+
+.tow__read-now__container:hover, .tow__read-now__container:active, .tow__read-now__container:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.tow__read-now__container:focus-visible {
+  color: #fff;
+  text-decoration: none;
+}
+
+.tow__read-now__container[data-wf-focus-visible], .tow__read-now__container:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.tow__read-now__container.tow__read-now__container--mouse {
+  z-index: 90;
+  opacity: 0;
+  padding-left: 20px;
+  position: absolute;
+  top: 3%;
+  bottom: auto;
+  left: auto;
+  right: auto;
+}
+
+.tow__read-now__container.slide {
+  height: 58px;
+  opacity: 1;
+  margin-top: 10px;
+  padding-left: 50px;
+  transition: height .2s, transform .2s, opacity .2s;
+  transform: scale(1);
+}
+
+.tow__read-now__bg {
+  z-index: -1;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .41) 40%, rgba(0, 0, 0, .42) 60%, rgba(0, 0, 0, 0));
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0;
+  right: 0%;
+}
+
+.tow__read-now__text {
+  padding-top: 10px;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.tow__read-now__text.no-pad {
+  padding-top: 0;
+}
+
+.tow__read-now__text.no-pad.white {
+  color: #fff;
+}
+
+.tow__read-now__img {
+  width: 30px;
+  height: 30px;
+}
+
+.tow__read-now__bg--liht {
+  z-index: 0;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, .12) 50%, rgba(255, 255, 255, 0));
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0;
+  right: 0%;
+}
+
+.image {
+  position: absolute;
+  top: 44%;
+  bottom: auto;
+  left: auto;
+  right: 0%;
+}
+
+.section {
+  height: 210px;
+  background-color: #000;
+  border-top: 2px solid #8f8f8f;
+}
+
+.tow__main {
+  color: #d1d1d1;
+  background-color: #06060c;
+  font-family: League Spartan, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+.tow__glow-pink {
+  z-index: -1;
+  width: 890px;
+  max-width: none;
+  position: absolute;
+  top: -32%;
+  bottom: 0%;
+  left: auto;
+  right: -53%;
+}
+
+.tow__tale__hero {
+  height: 40vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.tow__tale__hero.video {
+  width: 100%;
+  height: auto;
+  min-height: 40vh;
+  padding-top: 40px;
+}
+
+.tow__tale__hero__img {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.tow__thumb-fade {
+  z-index: 2;
+  width: 100%;
+  height: 10vh;
+  background-image: linear-gradient(359deg, #06060c 14%, rgba(0, 0, 0, 0) 81%);
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.tow__thumb-fade.vertical-left {
+  z-index: 2;
+  width: 10%;
+  height: 100%;
+  background-image: linear-gradient(89deg, #06060c, rgba(0, 0, 0, 0) 69%);
+  display: none;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: auto;
+}
+
+.tow__thumb-fade.vertical-right {
+  z-index: 2;
+  width: 10%;
+  height: 100%;
+  background-image: linear-gradient(269deg, #06060c, rgba(2, 2, 3, .29) 69%, rgba(0, 0, 0, 0));
+  display: none;
+  top: 0%;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+.tow__tale__hero__content {
+  z-index: 50;
+  width: 100%;
+  min-height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  position: relative;
+}
+
+.tow__tale__content {
+  position: relative;
+}
+
+.tow__tale-rt {
+  max-width: 930px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tow__tale__bg-img1 {
+  z-index: 0;
+  width: 60vh;
+  position: absolute;
+  top: 10%;
+  bottom: auto;
+  left: auto;
+  right: 0%;
+}
+
+.tow__tale__bg-img2 {
+  z-index: 0;
+  width: 60vh;
+  position: absolute;
+  top: auto;
+  bottom: 20%;
+  left: auto;
+  right: 10%;
+}
+
+.tow__h2__wrapper {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+}
+
+.slide-nav {
+  display: none;
+}
+
+.image-2 {
+  width: 585px;
+  height: 340px;
+}
+
+.tow__slider {
+  width: 100%;
+  height: 380px;
+  background-color: rgba(221, 221, 221, 0);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+.tow__slider .mask {
+  width: 625px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: visible;
+  border: none !important;
+}
+
+.tow__slider__card__wrapper {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(67deg, #19b9fd, #ffb20f);
+  border-radius: 10px;
+  padding: 2px;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.tow__slider__card__wrapper:hover, .tow__slider__card__wrapper:active, .tow__slider__card__wrapper:focus {
+  text-decoration: none;
+}
+
+.tow__slider__card__wrapper:focus-visible {
+  text-decoration: none;
+}
+
+.tow__slider__card__wrapper[data-wf-focus-visible], .tow__slider__card__wrapper:visited {
+  text-decoration: none;
+}
+
+.tow__slider__card__wrapper.straw-pillows {
+  background-image: linear-gradient(#bb64ff, #fff564);
+}
+
+.tow__slider__card__wrapper.peace-amongst-the-trees {
+  background-image: linear-gradient(67deg, #19b9fd, #ffb20f);
+}
+
+.tow__slider__card__wrapper.nightmares-of-a-warrior {
+  background-image: linear-gradient(67deg, #ff0f2b, #ffb20f);
+}
+
+.tow__slider__card__wrapper.dedicating-your-mind {
+  background-image: linear-gradient(67deg, #bb64ff, #fff564);
+}
+
+.tow__slider__card__wrapper.skilled-craftsman {
+  background-image: linear-gradient(67deg, #19fd74, #ffb20f);
+}
+
+.tow__slider__card__wrapper._100-blossoms {
+  background-image: linear-gradient(67deg, #19b9fd, #ffb20f);
+}
+
+.tow__slider__card__wrapper.butterflies {
+  background-image: linear-gradient(67deg, #bb64ff, #19b9fd);
+}
+
+.tow__slider__card__wrapper.master-arashi {
+  background-image: linear-gradient(67deg, #ff0f2b, #19b9fd);
+}
+
+.tow__slider__card__wrapper.mysterious-old-man {
+  background-image: linear-gradient(67deg, #fff564, #19b9fd);
+}
+
+.tow__slider__card__wrapper.po-dance {
+  background-image: linear-gradient(67deg, #19fd74, #19b9fd);
+}
+
+.tow__slider__card__wrapper.first-encounter {
+  background-image: linear-gradient(310deg, #19b9fd, #19fd74);
+}
+
+.tow__slider__card__wrapper.embarassing-walk {
+  background-image: linear-gradient(162deg, #ff0f2b, #fff564);
+}
+
+.tow__slider__card__wrapper.smashin-tree {
+  background-image: linear-gradient(339deg, #bb64ff, #fff564);
+}
+
+.tow__slider__card__wrapper.po-died {
+  background-image: linear-gradient(170deg, #bb64ff, #ff0f2b);
+}
+
+.tow__slider__card__wrapper.tiger-fly {
+  background-image: linear-gradient(336deg, #19fd74, #ffb20f);
+}
+
+.tow__slider__card__wrapper.sun-faded {
+  background-image: linear-gradient(355deg, #19b9fd, #bb64ff);
+}
+
+.tow__slider__card__wrapper.frozen-wasteland {
+  background-image: linear-gradient(#19b9fd, #fff);
+}
+
+.tow__slider__card__wrapper.last-night {
+  background-image: linear-gradient(to top, #bb64ff, #fff);
+}
+
+.tow__slider__card__wrapper.carrying-toughts {
+  background-image: linear-gradient(176deg, #bb64ff, #ffb20f);
+}
+
+.tow__slider__card__wrapper.scythe {
+  background-image: linear-gradient(9deg, #ff0f2b, #ffb20f);
+}
+
+.tow__slider__card__wrapper.jade-tiger {
+  background-image: linear-gradient(6deg, #19b9fd, #ffb20f);
+}
+
+.tow__slider__card__wrapper.candle {
+  background-image: linear-gradient(166deg, #19b9fd, #bb64ff);
+}
+
+.tow__slider__card {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: #06060c;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 25px;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+}
+
+.tow__slider__card.peace-amongst-the-trees {
+  background-image: url('../../images/tow/peace-trees.jpg');
+  background-position: 0 0;
+  background-size: auto;
+}
+
+.tow__slider__card.straw-pillows {
+  background-image: url('../../images/tow/strawpillows.jpg');
+  background-position: 0 0;
+  background-size: auto;
+}
+
+.tow__slider__card.nightmares-of-a-warrior {
+  background-image: url('../../images/tow/nightmares-warrior.jpg');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.tow__slider__card.dedicating-your-mind {
+  background-image: url('../../images/tow/dedicating-mind.jpg');
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.tow__slider__card.skilled-craftsman {
+  background-image: url('../../images/tow/skilled-craftsman.jpg');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.tow__slider__card._100-blossoms {
+  background-image: url('../../images/tow/100-blossoms.jpg');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.tow__slider__card.butterflies {
+  background-image: url('../../images/tow/butterflies.jpg');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.tow__slider__card.master-arashi {
+  background-image: url('../../images/tow/master-arashi.jpg');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.tow__slider__card.mysterious-old-man {
+  background-image: url('../../images/tow/mysterious-old-man.jpg');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.tow__slider__card.po-dance {
+  background-image: url('../../images/tow/po-dance.jpg');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.tow__slider__card.first-encounter {
+  background-image: url('../../images/tow/first-enconter.jpg');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.tow__slider__card.embarassing-walk {
+  background-image: url('../../images/tow/embarassing-walk.jpg');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.tow__slider__card.smashin-tree {
+  background-image: url('../../images/tow/smashing-a-tree.jpg');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.tow__slider__card.po-died {
+  background-image: url('../../images/tow/po-died.jpg');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.tow__slider__card.tiger-fly {
+  background-image: url('../../images/tow/tiger-and-fly.jpg');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.tow__slider__card.sun-faded {
+  background-image: url('../../images/tow/sun-faded.jpg');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.tow__slider__card.frozen-wasteland {
+  background-image: url('../../images/tow/frozen-wasteland.jpg');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.tow__slider__card.last-night {
+  background-image: url('../../images/tow/last-night.jpg');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.tow__slider__card.carrying-toughts {
+  background-image: url('../../images/tow/carrrying-thought.jpg');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.tow__slider__card.scythe {
+  background-image: url('../../images/tow/scythe.jpg');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.tow__slider__card.jade-tiger {
+  background-image: url('../../images/tow/jade-tiger-thumb.jpg');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.tow__slider__card.candle {
+  background-image: url('../../images/tow/Group-427319280.jpg');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.tow__slide-item {
+  perspective: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: visible;
+}
+
+.tow__slide-arrow--right {
+  margin: auto auto auto 10px;
+}
+
+.tow__slide-arrow--left {
+  margin: auto 10px auto auto;
+}
+
+.tow__next-tale {
+  width: 100%;
+  height: 340px;
+  max-width: 585px;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+.tow__tale__header {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+.tow__discover {
+  min-height: 35vh;
+  background-image: url('../../images/tow/discoverBG.jpg');
+  background-position: 50%;
+  background-size: cover;
+  border-top: 2px solid #9c9c9c;
+  border-bottom: 2px solid #9c9c9c;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.tow__discover__wrapper {
+  height: 100%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+._100h {
+  height: 100%;
+}
+
+.tow__sub-text {
+  font-size: 26px;
+}
+
+.tow_no-margin {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.tow__chat-btn {
+  cursor: pointer;
+  background-image: linear-gradient(144deg, #ff0f2b, #ffb20f);
+  border: 2px solid #fff;
+  margin-top: 10px;
+  padding: 18px 31px 14px;
+  transition: transform .2s;
+}
+
+.tow__chat-btn:hover {
+  transform: scale(1.05);
+}
+
+.tow__hero__title {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.tow__tale-video {
+  width: 100%;
+  max-width: 740px;
+  background-color: rgba(0, 0, 0, .87);
+  border: 2px solid #bdbdbd;
+  border-radius: 10px;
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.tow__hero__card__bg {
+  z-index: 1;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  overflow: hidden;
+}
+
+.tow__hero__card__bg.straw {
+  background-image: linear-gradient(#fff, #19b9fd);
+}
+
+.tow__hero__card__bg.peacetrees {
+  background-image: linear-gradient(#ffb20f, #bb64ff);
+}
+
+.tow__hero__card__bg.nightmares {
+  background-image: linear-gradient(#ff0f2b, #ffb20f);
+}
+
+.tow__hero__card__bg.dedicating {
+  background-image: linear-gradient(#ffb20f, #bb64ff);
+}
+
+.tow__hero__card__bg.craftsman {
+  background-image: linear-gradient(#ffb20f, #19fd74);
+}
+
+.tow__hero__card__bg.blossoms {
+  background-image: linear-gradient(#19b9fd, #ffb20f);
+}
+
+.tow__hero__card__bg.butterflies {
+  background-image: linear-gradient(#19b9fd, #bb64ff);
+}
+
+.tow__hero__card__bg.arashi {
+  background-image: linear-gradient(#19b9fd, #ff0f2b);
+}
+
+.tow__hero__card__bg.oldman {
+  background-image: linear-gradient(#19b9fd, #ffb20f);
+}
+
+.tow__hero__card__bg.podance {
+  background-image: linear-gradient(#19b9fd, #19fd74);
+}
+
+.tow__hero__card__bg.fisrtencouunter {
+  background-image: linear-gradient(#19fd74, #19b9fd);
+}
+
+.tow__hero__card__bg.walk {
+  background-image: linear-gradient(#ff0f2b, #fff564);
+}
+
+.tow__hero__card__bg.tree {
+  background-image: linear-gradient(#fff564, #bb64ff);
+}
+
+.tow__hero__card__bg.podied {
+  background-image: linear-gradient(#bb64ff, #ff0f2b);
+}
+
+.tow__hero__card__bg.tigerfly {
+  background-image: linear-gradient(#fff564, #19fd74);
+}
+
+.tow__hero__card__bg.sunfafded {
+  background-image: linear-gradient(#bb64ff, #19b9fd);
+}
+
+.tow__hero__card__bg.fozen {
+  background-image: linear-gradient(#19b9fd, #fff);
+}
+
+.tow__hero__card__bg.latnight {
+  background-image: linear-gradient(#fff, #bb64ff);
+}
+
+.tow__hero__card__bg.carry {
+  background-image: linear-gradient(#bb64ff, #ffb20f);
+}
+
+.tow__hero__card__bg.swing {
+  background-image: linear-gradient(#ffb20f, #ff0f2b);
+}
+
+.tow__hero__card__bg.jade {
+  background-image: linear-gradient(#fff564, #19b9fd);
+}
+
+.tow__hero__card__bg.candle {
+  background-image: linear-gradient(#19b9fd, #bb64ff);
+}
+
+.tow__hero__card__fade {
+  z-index: 5;
+  height: 70%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), #000);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 0 3px 5px;
+  position: absolute;
+  top: auto;
+  bottom: 2px;
+  left: 2px;
+  right: 2px;
+}
+
+.tow__hero__card-text {
+  z-index: 20;
+  max-width: 260px;
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 120%;
+  position: relative;
+}
+
+.tow__hero__card-img {
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  padding: 2px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .tow__hero {
+    max-height: none;
+  }
+
+  .tow__tale__hero {
+    height: 30vh;
+  }
+
+  .tow__thumb-fade.vertical-left, .tow__thumb-fade.vertical-right {
+    display: block;
+  }
+
+  .tow__tale__header {
+    font-size: 44px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .tow__hero-wrapper {
+    height: 8390px;
+  }
+
+  .tow__hero {
+    background-image: url('../../images/tow/bgfullwide.jpg');
+  }
+
+  .tow__hero__content__top__left {
+    width: 380px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .tow__hero__cards__container {
+    width: 8390px;
+  }
+
+  .tow__hero__card {
+    width: 372px;
+    height: 600px;
+  }
+
+  .tow__read-now__container.tow__read-now__container--mouse {
+    top: 3%;
+  }
+
+  .tow__main {
+    font-size: 26px;
+  }
+
+  .tow__tale__header {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .tow__hero-wrapper {
+    height: auto;
+  }
+
+  .tow__hero {
+    max-height: none;
+    min-height: auto;
+    background-image: url('../../images/tow/bgmobile.jpg');
+    background-position: 50% 18%;
+    position: relative;
+  }
+
+  .tow__hero__content__top {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    flex-direction: column;
+  }
+
+  .tow__hero__content__top__left {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .tow__hero__content__top__right {
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: -40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow: auto;
+  }
+
+  .tow__hero__cards__container {
+    width: auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+
+  .tow__hero__card {
+    width: 266px;
+    height: 430px;
+  }
+
+  .tow__hero__scroll__text {
+    display: none;
+  }
+
+  .tow__hero__scroll__text.mobile {
+    display: block;
+  }
+
+  .tow__hero__scroll {
+    margin-top: 40px;
+  }
+
+  .tow__hero__content__bottom {
+    margin-top: 20px;
+  }
+
+  .tow__hero__content__bottom-right {
+    max-width: 100%;
+    padding-top: 24px;
+  }
+
+  .tow__hero__content__bottom__left {
+    width: 260px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .tow__read-now__container.tow__read-now__container--mouse {
+    opacity: 1;
+  }
+
+  .tow__read-now__bg--liht {
+    z-index: 0;
+    left: -30px;
+  }
+
+  .tow__tale__hero {
+    height: 30vh;
+  }
+
+  .tow__hero__title {
+    width: 330px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    color: #fff;
+    font-size: 35px;
+  }
+
+  .tow__padding-v {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+  }
+
+  .tow__hero__title-img {
+    height: 220px;
+    object-fit: contain;
+    bottom: 0;
+    right: 0;
+  }
+
+  .tow__hero__content__bottom {
+    flex-direction: column;
+  }
+
+  .tow__hero__content__bottom__left {
+    width: 100%;
+  }
+
+  .tow__read-now__bg--liht {
+    left: 0;
+  }
+
+  .tow__main {
+    font-size: 22px;
+  }
+
+  .tow__tale__hero.video {
+    padding-top: 20px;
+  }
+
+  .tow__slider {
+    display: none;
+  }
+
+  .tow__slider__card {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .tow__next-tale {
+    height: 300px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  h2 {
+    font-size: 24px;
+    line-height: 110%;
+  }
+
+  .tow__hero {
+    background-position: 50% 10%;
+  }
+
+  .tow__padding-h {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .tow__hero__content__top__right {
+    margin-left: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .tow__hero__scroll__text.mobile {
+    font-size: 16px;
+  }
+
+  .tow__read-now__container.slide {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .tow__read-now__text {
+    font-size: 22px;
+  }
+
+  .tow__main {
+    color: #fff;
+    font-size: 20px;
+    line-height: 140%;
+  }
+
+  .heading {
+    font-size: 30px;
+  }
+
+  .tow__h2__wrapper, .tow__slider__card {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .tow__next-tale {
+    height: 270px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .tow__tale__header {
+    font-size: 30px;
+  }
+
+  .tow__discover {
+    height: 30vh;
+  }
+
+  .tow__sub-text {
+    font-size: 23px;
+  }
+
+  .tow__chat-btn {
+    padding: 13px 22px 10px 22px;
+  }
+
+  .tow__hero__title {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
